@@ -1,0 +1,26 @@
+/car-washing-management-system
+│
+├── /public/                     # Public files
+│   ├── index.html               # HTML template
+│   └── /assets/                 # Static assets (images, icons, etc.)
+│
+├── /src/                        # Source code
+│   ├── /assets/                 # Image files, logos, icons, etc.
+│   ├── /components/             # Reusable UI components (Buttons, Forms, etc.)
+│   ├── /context/                # React Context for global state management
+│   ├── /hooks/                  # Custom hooks
+│   ├── /pages/                  # Different page components (Home, Dashboard, etc.)
+│   ├── /services/               # API calls and external service functions
+│   ├── /styles/                 # Global styles (CSS/SCSS)
+│   ├── /utils/                  # Utility functions (helpers, date formatting, etc.)
+│   ├── /router/                 # Routing configuration (React Router setup)
+│   ├── App.jsx                  # Main app component
+│   ├── main.jsx                 # Entry point for Vite (React root render)
+│   └── index.css                # Global styles or imported CSS (can be empty if you prefer SCSS)
+│
+├── /node_modules/               # Node modules (auto-generated)
+├── package.json                 # Project metadata and dependencies
+├── vite.config.js               # Vite configuration file
+├── .gitignore                   # Git ignore file
+├── README.md                    # Project documentation
+└── .env                         # Environment variables (if any)
