@@ -24,3 +24,60 @@
 ├── .gitignore                   # Git ignore file
 ├── README.md                    # Project documentation
 └── .env                         # Environment variables (if any)
+
+
+
+Second Tempelate 
+
+/car-washing-management-system
+│
+├── /public/
+│   ├── index.html               # Main HTML template
+│   └── /assets/                 # Static images/icons
+│
+├── /src/
+│   ├── /assets/                 # Images or assets
+│   ├── /components/             # Reusable components
+│   │   ├── Button.jsx           # Example button component
+│   │   ├── BookingForm.jsx      # Booking form component
+│   │   └── NavBar.jsx           # Navigation bar component
+│   ├── /context/                # Global state context
+│   │   └── ThemeContext.jsx     # Context for theme management (light/dark)
+│   ├── /hooks/                  # Custom hooks
+│   ├── /pages/                  # Page components
+│   │   ├── HomePage.jsx         # Home page component
+│   │   ├── DashboardPage.jsx    # Admin dashboard page
+│   │   └── BookingPage.jsx      # Booking page
+│   ├── /services/               # API call services
+│   │   └── bookingService.js    # Example API service for booking
+│   ├── /styles/                 # Global styles
+│   │   └── global.css           # Global CSS
+│   ├── /utils/                  # Utility functions
+│   ├── App.jsx                  # Main App component
+│   ├── main.jsx                 # Entry point for Vite
+│   └── index.css                # Global styles (or imported from SCSS)
+│
+├── node_modules/                # Node modules (auto-generated)
+├── package.json                 # Project dependencies and metadata
+├── vite.config.js               # Vite configuration
+├── .gitignore                   # Git ignore file
+├── README.md                    # Project documentation
+└── .env                         # Environment variables (if needed)
+
+
+
+
+STEP TO CONFIGURE THIS PROJECT 
+------------------------------
+
+npm install react-router-dom 
+
+npm install tailwindcss @tailwindcss/vite
+
+npm install lucide-react
+
+
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+
+ {/* bg-white  dark:bg-gray-800 */}
+        {/* bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm */}
