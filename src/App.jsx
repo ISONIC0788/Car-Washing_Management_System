@@ -4,13 +4,18 @@ import BookingPage from './pages/BookingPage';
 import DashboardPage from './pages/DashboardPage';
 import HomePage from './pages/HomePage';
 import NoPages from './pages/NoPages';
-import {BrowserRouter , Routes , Route } from 'react-router-dom'
+import Header from './components/Header';
+import {BrowserRouter , Routes , Route } from 'react-router-dom';
+import Card3D from './components/Card3D';
+
 
 function App() {
   return (
     <>
     <div className='bg-white  dark:bg-gray-800'>
+      
     <BrowserRouter>
+    
       <Routes>
         <Route index element={<HomePage/>}  />
         <Route path='/home' element={<HomePage/>}/>

@@ -81,3 +81,11 @@ npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 
  {/* bg-white  dark:bg-gray-800 */}
         {/* bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm */}
+
+
+ npm install @mui/joy
+
+
+ npm install react-icons
+
+       
