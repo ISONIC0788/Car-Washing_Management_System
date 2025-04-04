@@ -88,4 +88,15 @@ npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 
  npm install react-icons
 
+
+ npm install recharts
+
+ npm install @mui/x-data-grid
+
+
+ npm install @mui/toolpad
+
+
+npm install @mui/toolpad-core
+
        

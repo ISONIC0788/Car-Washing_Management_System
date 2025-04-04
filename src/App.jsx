@@ -7,6 +7,7 @@ import NoPages from './pages/NoPages';
 import Header from './components/Header';
 import {BrowserRouter , Routes , Route } from 'react-router-dom';
 import Card3D from './components/Card3D';
+import DataTable from './pages/DataTable';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/home' element={<HomePage/>}/>
         <Route path='/dashboard' element={<DashboardPage/>}/>
         <Route path='/booking' element={<BookingPage/>}/>
+       <Route path='/data' element={<DataTable/>}/>
         <Route  path='*' element={<NoPages/>}/>
         
       </Routes>
