@@ -32,7 +32,7 @@ function NavBar() {
       <a
   href="https://ebedcarwashingmanagementsystem.vercel.app/"
   className="text-gray-900 dark:text-white hover:text-indigo-500" target="_blank" rel="noopener noreferrer">
-  Visit GitHub
+  Dashboard
 </a>
         <Link to="/Booking" className="text-gray-900 dark:text-white hover:text-indigo-500">Booking</Link>
       </div>
